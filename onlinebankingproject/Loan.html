@@ -1,0 +1,55 @@
+<html>
+<head>
+<link href="loan.css" rel="stylesheet" type="text/css"> 
+<head>
+<body style="background-color: skyblue"></body>
+<div class="container">
+<form>
+<div class="row">
+<h4>Apply to Loan</h4>
+<div class="input-group input-group-icon">
+<input type="text" placeholder="Full Name"/>
+<div class="input-icon"><i class="fa fa-user"></i></div> </div>
+<div class="input-group input-group-icon">
+<input type="email" placeholder="Account number"/>
+<div class="input-icon"><i class="fa fa-envelope"></i></div> </div>
+<div class="input-group input-group-icon">
+<input type="password" placeholder="Email address"/> <div class="input-icon"><i class="fa fa-key"></i></div>
+</div>
+<div class="input-group input-group-icon">
+<input type="password" placeholder="Phone number"/>
+<div class="input-icon"><i class="fa fa-key"></i></div> </div>
+</div>
+<div class="row">
+<div class="col-half"> <h4>Date of Birth</h4><div class="input-group">
+<div class="col-third">
+<input type="text" placeholder="DD"/>
+</div>
+<div class="col-third">
+<input type="text" placeholder="MM"/> </div>
+<div class="col-third">
+<input type="text" placeholder="YYYY"/> </div>
+</div>
+</div>
+<div class="col-half">
+<h4>Gender</h4>
+<div class="input-group">
+<input id="gender-male" type="radio" name="gender" value="male"/> <label for="gender-male">Male</label>
+<input id="gender-female" type="radio" name="gender" value="female"/> <label for="gender-female">Female</label>
+</div>
+</div>
+<div class="custom-select" style="width:400px;">
+<select>
+<option value="0">Select Loan Type:</option> <option value="1">House Loan</option> <option value="2">Education Loan</option> <option value="3">Gold Loan</option> <option value="4">Personal Loan</option>
+</select> </div>
+</div>
+<p align="right"> <button formaction="home.html" class="sub>" onclick="myFunction()">Submit</button></p>
+<script>
+function myFunction() {
+alert("Loan Applied Successfully"); }
+</script>
+ </div>
+</form>
+</div> 
+</body>
+ </html>

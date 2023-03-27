@@ -1,0 +1,54 @@
+/* Add a black background color to the top navigation */ .topnav {
+overflow: hidden; }
+/* Style the links inside the navigation bar */ .topnav a {
+float: left;
+color: #f2f2f2; text-align: center; padding: 14px 16px; text-decoration: none; font-size: 17px;
+}
+/* Change the color of links on hover */ .topnav a:hover {
+background-color: #ddd;
+21
+ 
+         color: black; }
+/* Add a color to the active/current link */ .topnav a.active {
+background-color: #04AA6D;
+color: white; }
+.container {
+position: relative;
+max-width: 800px; /* Maximum width */ margin: 0 auto; /* Center it */
+}
+Login.html
+<html>
+<head>
+<link href="login.css" rel="stylesheet" type="text/css">
+<style>
+body{ background-image:url('https://wallpaperaccess.com/full/2020706.jpg'); }
+h1 {
+font-size: 63px;
+text-shadow: 2px 2px #A9A9A9; }
+</style>
+</head>
+<body class="background-image">
+<form action="action_page.php" method="post">
+<div class="navbar">
+22
+    
+<a class="active" href="home.html"><i class="fa fa-fw fa-home"></i> Home</a> <a href="contact.html"><i class="fa fa-fw fa-envelope"></i> Contact</a>
+<a href="loan.html"><i class="fa fa-fw fa-user"></i> Loans</a>
+<button class="sbtn" formaction="sign.html"> SIGNUP</button>
+</div>
+<h1 align="center"> <p style="color:white"><b>HARLEY HILLS BANK</b></p></h1>
+<p align="center">
+<img src="https://image.freepik.com/free-vector/digital-banking_23-2147517376.jpg" alt="iu" width="90" height="90" /> <br clear="left">
+</p>
+</br>
+</div>
+</form>
+<form action="action_page.php" method="post">
+<div class="container">
+<label for="uname"><p style="color:floralwhite"><b>Username</b></p></label> <input type="text" placeholder="Enter Username" name="uname" required> <label for="psw" ><p style="color:floralwhite"><b>Password</b></p></label> <input type="password" placeholder="Enter Password" name="psw" required>
+<a href="pg1.html"><button formaction="pg1.html" onclick="myFunction()">Login</button></a>
+<script>
+function myFunction() {
+alert("Login Success"); }
+</script> </div> </form>
+</body> </html>

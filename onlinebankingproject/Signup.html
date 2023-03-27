@@ -1,0 +1,42 @@
+<html>
+              <head>
+                <link href="sign.css" rel="stylesheet" type="text/css"> 
+                <style>
+                    body {
+                    background-image: url('https://wallpapercave.com/wp/wp3955644.jpg');
+                    } 
+                    h1 {
+                    font-size: 45px; 
+                }
+                    </style>
+              </head>
+              <body class="background-image">
+                <form action="action_page.php" method="post">
+                    <div class="container">
+                    <h1 style="color:floralwhite" align="left">Sign Up</h1> 
+                    <hr>
+                    <label for="email"><p style="color:floralwhite"><b>Name</b></p></label>
+                    <input type="text" placeholder="Enter Full Name" name="name" required>
+                    <label for="email"><p style="color:floralwhite"><b>Phone number</b></p></label>
+                    <input type="tel" placeholder="Enter mobile number" name="num" required>
+                    <label for="email"><p style="color:floralwhite"><b>Date of Birth</b></p></label>
+                    <input type="date" placeholder="Enter DOB" name="date" required>
+                    <label for="email"><p style="color:floralwhite"><b>Email</b></p></label>
+                    <input type="text" placeholder="Enter Email" name="email" required>
+                    <label for="psw"><p style="color:floralwhite"><b>Confirm Password</b></p></label> <input type="password" placeholder="Enter Password" name="psw" required>
+                    <div class="clearfix">
+                    <button type="button" class="cancelbtn">Cancel</button>
+                    <a href="pg1.html"><button type="submit" class="signupbtn" onclick="myFunction()" formaction="pg1.html">Sign Up</button></a>
+                    </form>
+             <script> 
+             
+                 function myFunction() {
+                alert("Sucessfully Registered!");
+                }
+             </script>
+    </div>
+  </div>
+</form>
+              </body>
+ </html>
+        
